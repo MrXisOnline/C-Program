@@ -24,8 +24,12 @@ void main(){
     // char str[] = "Hello", str2[80];
     // strcpy(str2, str);
     // printf("%s, %s", str, str2);
-    char credentials[100][4];
-    // credentials[0][0] = "hello";
-    strcpy(credentials[0][0], "hello");
-    printf("%s", credentials[0][0]);
+    // char credentials[100][4];
+    // // credentials[0][0] = "hello";
+    // strcpy(credentials[0][0], "hello");
+    // printf("%s", credentials[0][0]);
+    // char bookcol[1000][4][80];
+    // strcpy(bookcol[0][3], "rat");
+    // printf("%d", strlen(bookcol[0][2]));
+    printf("%s", "x" * 5);
 }
