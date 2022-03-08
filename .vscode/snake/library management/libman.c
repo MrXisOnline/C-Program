@@ -18,6 +18,7 @@ void main()
         printf("\t\t5. Return A Book\n");
         printf("\t\t6. Serialize All Books\n");
         printf("\t\t7. Exit\n");
+        printf("\t\t8. Clear Screen\n");
         printf("\n\t\t Your Choice : ");
         scanf("%d", &choice);
         fflush(stdin);
@@ -80,7 +81,10 @@ void main()
             run = false;
             printf("\nExiting Library Manager ...");
             clear_screen();
-        }else{
+        }else if (choice == 8){
+            clear_screen();
+        }
+        else{
             printf("\nOops You Entered A Wrong Choice...\n");
             clear_screen();
         }
